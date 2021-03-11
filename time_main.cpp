@@ -32,4 +32,11 @@ int main() {
   t3.print();  // 23:59:59
   t3.nextSecond();
   t3.print();  // 00:00:00
+
+  Time t4(30, 30, 58);
+  t4.print();
+  t4.nextSecond();
+  t4.print();
+  t4.nextSecond();
+  t4.print();
 }
